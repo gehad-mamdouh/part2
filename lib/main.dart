@@ -186,26 +186,26 @@ class _HomeScreenState extends State<HomeScreen> {
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home_rounded,color: Colors.grey,),
-            label: '', // Set label to empty string
+            label: '',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.grid_view,color: Colors.grey,),
-            label: '', // Set label to empty string
+            label: '',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.calendar_today_outlined,color: Colors.grey,),
-            label: '', // Set label to empty string
+            label: '',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person_outline_outlined,color: Colors.grey,),
-            label: '', // Set label to empty string
+            label: '',
           ),
         ],
         currentIndex: _selectedIndex,
         selectedItemColor: Colors.green,
         onTap: _onItemTapped,
-        showSelectedLabels: false, // Hide labels
-        showUnselectedLabels: false, // Hide labels
+        showSelectedLabels: false,
+        showUnselectedLabels: false,
       ),
     );
   }
